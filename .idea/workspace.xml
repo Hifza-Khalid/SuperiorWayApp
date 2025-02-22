@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aea1b2d8-3c49-4f06-aab2-8751e2a45d58" name="Changes" comment="Our Flutter App Project">
-      <change afterPath="$PROJECT_DIR$/app/app/assets/profile_picture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/screens/bus_schedule_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/screens/bus_schedule_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/screens/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/screens/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/screens/live_location_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/screens/live_location_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/screens/profile_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/screens/profile_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/app/windows/flutter/generated_plugins.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="aea1b2d8-3c49-4f06-aab2-8751e2a45d58" name="Changes" comment="Our Flutter App Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739942146664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Our Flutter App Project">
+      <option name="closed" value="true" />
+      <created>1740213342377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740213342377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
