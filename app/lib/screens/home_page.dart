@@ -3,6 +3,8 @@ import 'attendance_page.dart';
 import 'fee_payment_page.dart';
 import 'bus_schedule_page.dart';
 import 'profile_page.dart';
+import 'live_location_page.dart';
+
 
 class HomePage extends StatelessWidget {
   @override
@@ -15,6 +17,7 @@ class HomePage extends StatelessWidget {
           ListTile(title: Text("Fee Payment"), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FeePaymentPage()))),
           ListTile(title: Text("Bus Schedule"), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => BusSchedulePage()))),
           ListTile(title: Text("Profile"), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()))),
+          ListTile(title: Text("Live location page"), onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => LiveLocationPage()))),
         ],
       ),
     );
