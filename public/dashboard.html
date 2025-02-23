@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="js/dashboard.js"></script>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        /* Dashboard Container */
+        .dashboard-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Dashboard Cards */
+        .dashboard-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .dashboard-card i {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+        }
+
+        .dashboard-card h3 {
+            margin: 10px 0;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+
+        .dashboard-card p {
+            margin: 0;
+            font-size: 1rem;
+            color: #777;
+        }
+
+        /* Card Background Colors */
+        .bg-blue {
+            background-color: #3498db;
+        }
+
+        .bg-green {
+            background-color: #27ae60;
+        }
+
+        .bg-orange {
+            background-color: #e67e22;
+        }
+
+        .bg-red {
+            background-color: #e74c3c;
+        }
+
+        .bg-purple {
+            background-color: #9b59b6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Admin Dashboard</h1>
+        <p>Monitor users, services, orders, and payments efficiently.</p>
+    </header>
+
+    <section class="dashboard-container">
+        <div class="dashboard-card bg-blue">
+            <i class="fas fa-users"></i>
+            <h3 id="totalUsers">0</h3>
+            <p>Total Users</p>
+        </div>
+        <div class="dashboard-card bg-green">
+            <i class="fas fa-concierge-bell"></i>
+            <h3 id="totalServices">0</h3>
+            <p>Total Services</p>
+        </div>
+        <div class="dashboard-card bg-orange">
+            <i class="fas fa-shopping-cart"></i>
+            <h3 id="totalOrders">0</h3>
+            <p>Total Orders</p>
+        </div>
+        <div class="dashboard-card bg-red">
+            <i class="fas fa-money-bill-wave"></i>
+            <h3 id="pendingPayments">0</h3>
+            <p>Pending Payments</p>
+        </div>
+        <div class="dashboard-card bg-purple">
+            <i class="fas fa-calendar-check"></i>
+            <h3 id="attendanceOverview">0</h3>
+            <p>Attendance Overview</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Service Sider Admin Panel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.buses h2 {
+    color: #007bff;
+}
+
+.buses table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.buses th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.buses td {
+    padding: 8px;
+}
+
+.buses button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buses button:hover {
+    background-color: #c82333;
+}

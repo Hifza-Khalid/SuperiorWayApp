@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "67b2b39133f5306fcd4d7948"
+  },
+  "routeName": "Route A",
+  "startPoint": "Campus",
+  "endPoint": "City Center",
+  "stops": [
+    "Stop 1",
+    "Stop 2"
+  ],
+  "estimatedTime": "30 minutes"
+},
+{
+  "_id": {
+    "$oid": "67b2b39133f5306fcd4d7949"
+  },
+  "routeName": "Route B",
+  "startPoint": "Campus",
+  "endPoint": "North Gate",
+  "stops": [
+    "Stop 3",
+    "Stop 4"
+  ],
+  "estimatedTime": "25 minutes"
+}]

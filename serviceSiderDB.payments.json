@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67b2b3a533f5306fcd4d794a"
+  },
+  "studentId": "1",
+  "amount": 5000,
+  "dueDate": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "description": "Monthly Bus Fee",
+  "paid": false
+},
+{
+  "_id": {
+    "$oid": "67b2b3a533f5306fcd4d794b"
+  },
+  "studentId": "2",
+  "amount": 5000,
+  "dueDate": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "description": "Monthly Bus Fee",
+  "paid": true
+}]

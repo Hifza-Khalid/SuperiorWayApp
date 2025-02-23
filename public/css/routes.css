@@ -1,0 +1,32 @@
+.routes h2 {
+    color: #007bff;
+}
+
+.routes table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.routes th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.routes td {
+    padding: 8px;
+}
+
+.routes button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.routes button:hover {
+    background-color: #c82333;
+}

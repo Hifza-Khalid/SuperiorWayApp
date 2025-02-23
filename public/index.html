@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Sider Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #1abc9c;
+        }
+
+        nav ul li a i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        /* Welcome Section */
+        .welcome {
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome h2 {
+            margin: 0 0 10px;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+
+        .welcome p {
+            margin: 0;
+            font-size: 1rem;
+            color: #777;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li a {
+                justify-content: center;
+            }
+
+            .welcome {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Service Sider Admin Panel</h1>
+        <p>Manage users, services, payments, and more efficiently.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+            <li><a href="students.html"><i class="fas fa-user-graduate"></i> Manage Students</a></li>
+            <li><a href="buses.html"><i class="fas fa-bus"></i> Manage Buses</a></li>
+            <li><a href="payments.html"><i class="fas fa-credit-card"></i> Manage Payments</a></li>
+            <li><a href="routes.html"><i class="fas fa-route"></i> Manage Routes</a></li>
+        </ul>
+    </nav>
+
+    <section class="welcome">
+        <h2>Welcome to the Admin Panel</h2>
+        <p>Use the navigation menu to manage different sections of the service.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Service Sider. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

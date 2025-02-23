@@ -1,0 +1,41 @@
+.payments h2 {
+    color: #007bff;
+}
+
+.payments table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.payments th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.payments td {
+    padding: 8px;
+}
+
+.payments button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.payments button:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: darkred;
+}

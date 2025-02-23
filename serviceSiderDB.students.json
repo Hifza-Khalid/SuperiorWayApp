@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67b2b52533f5306fcd4d794f"
+  },
+  "name": "Mohammad Ali",
+  "grade": "10",
+  "busRoute": "Route B"
+},
+{
+  "_id": {
+    "$oid": "67b2b5a333f5306fcd4d7950"
+  },
+  "name": "Muhammad Zubair",
+  "grade": "12",
+  "busRoute": "Route A"
+}]

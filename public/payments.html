@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Payments</title>
+    <link rel="stylesheet" href="css/payments.css">
+    <script defer src="js/payments.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        #paymentForm {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #paymentForm input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            flex: 1 1 200px;
+        }
+        #paymentForm button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            flex: 1 1 100px;
+        }
+        #paymentForm button:hover {
+            background-color: #2980b9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        table th {
+            background-color: #3498db;
+            color: white;
+        }
+        table tr:hover {
+            background-color: #f1f1f1;
+        }
+        .status.paid {
+            color: #27ae60;
+        }
+        .status.pending {
+            color: #e74c3c;
+        }
+        .actions button {
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .actions button.edit {
+            background-color: #27ae60;
+            color: white;
+        }
+        .actions button.delete {
+            background-color: #e74c3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Payment Management</h1>
+
+    <form id="paymentForm">
+        <input type="text" id="studentId" placeholder="Student ID" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <input type="date" id="dueDate" placeholder="Due Date" required>
+        <input type="text" id="description" placeholder="Description">
+        <button type="submit">Add Payment</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Amount</th>
+                <th>Due Date</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="paymentsTable"></tbody>
+    </table>
+</body>
+</html>
